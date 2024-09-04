@@ -30,7 +30,8 @@ import Index from "./Comp/generate-image-guide";
 import VideoFrame from "./Comp/FrameEffct/app";
 import LogoAnimation from './Comp/3dLogoAnimation/index'
 import BlurClear from "./Comp/blurclear";
-
+import { VercelDesign } from "./Comp/vercel";
+import BlurClearSar from "./Comp/blurclear-sarthak";
 // import { ThreeDCardDemo } from './Comp/threeDCard/index'
 // import ScrollThreeD './Comp/'
 function AppToRender() {
@@ -41,6 +42,7 @@ function AppToRender() {
 
   return (
     <>
+    <VercelDesign/>
       {/* <NavbarDemo />
       <CardDemo />
       <ScrollBasedVelocityDemo />
@@ -48,6 +50,7 @@ function AppToRender() {
       <Example /> */}
       <Index/>
       <BlurClear/>
+      <BlurClearSar/>
       <LogoAnimation/>
       
       
@@ -61,6 +64,7 @@ function AppToRender() {
        <MenuMain />  */}
       {/* <PlaceholdersAndVanishInputDemo/> */}
       <Footer />
+      
     </>
   );
 }
