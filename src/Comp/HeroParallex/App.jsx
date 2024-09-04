@@ -57,11 +57,6 @@ export const products = [
     thumbnail: "https://imgv3.fotor.com/images/share/wonderland-girl-generated-by-Fotor-ai-art-generator.jpg", // Update with a relevant image
   },
   {
-    title: "Smart AI Solutions",
-    link: "https://smartaisolutions.com",
-    thumbnail: "https://etimg.etb2bimg.com/photo/100062546.cms", // Update with a relevant image
-  },
-  {
     title: "Advanced AI Tools",
     link: "https://advancedaitools.com",
     thumbnail: "https://etimg.etb2bimg.com/photo/100062546.cms", // Update with a relevant image

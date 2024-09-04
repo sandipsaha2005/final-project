@@ -30,7 +30,7 @@ export function PlaceholdersAndVanishInputDemo() {
         }
       );
       console.log(response);
-      
+
       const result = await response.blob();
       return result;
     };
@@ -55,17 +55,23 @@ export function PlaceholdersAndVanishInputDemo() {
   }, [imageURL]);
 
   const placeholders = [
-    "What's the first rule of Fight Club?",
-    "Who is Tyler Durden?",
-    "Where is Andrew Laeddis Hiding?",
-    "Write a Javascript method to reverse a string",
-    "How to assemble your own PC?",
+    "Search for AI-generated images...",
+    "What does a futuristic city look like?",
+    "Find the perfect design for your project...",
+    "How would a robot revolution appear?",
+    "Explore AI art and visuals...",
   ];
 
- 
+  // const handleChange = (e) => {
+  //   console.log(e.target.value);
+  // };
+  // const onSubmit = (e) => {
+  //   e.preventDefault();
+  //   console.log("submitted");
+  // };
   return (
-    <div className="h-[40rem] w-full flex flex-col justify-center  items-center px-4 dark:bg-[#0B0B0F]">
-      <h2 className="mb-1 sm:mb-20 text-xl text-center sm:text-5xl dark:text-white text-black">
+    <div className="h-[40rem] w-full flex flex-col justify-center  items-center px-4 dark:bg-[#09090b]">
+      <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl dark:text-white text-black">
         Enter Whatever You want to see
       </h2>
       <PlaceholdersAndVanishInput
@@ -79,14 +85,26 @@ export function PlaceholdersAndVanishInputDemo() {
           display: "flex",
           justifyContent: "center",
           // maxHeight: "500px",
-          alignItems:'center'
+          alignItems: "center",
         }}
       >
-        {loader ?<> <img src={'./loader.gif'} alt=""  className="object-cover object-left-top"/>  </>: 
-        // <ThreeDCardDemo title={'Taking'} src={imageURL ? imageURL : './cow.jpeg'} /> 
-        <img src={imageURL ? imageURL : './cow.jpeg'} alt="" className="object-cover object-left-top"/>
-        }
-        
+        {loader ? (
+          <>
+            {" "}
+            <img
+              src={"./loader.gif"}
+              alt=""
+              className="object-cover object-left-top"
+            />{" "}
+          </>
+        ) : (
+          // <ThreeDCardDemo title={'Taking'} src={imageURL ? imageURL : './cow.jpeg'} />
+          <img
+            src={imageURL ? imageURL : "./cow.jpeg"}
+            alt=""
+            className="object-cover object-left-top"
+          />
+        )}
       </div>
     </div>
   );
