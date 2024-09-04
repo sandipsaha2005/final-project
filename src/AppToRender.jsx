@@ -28,10 +28,10 @@ import { CardDemo } from "./Comp/HoverVideo/app";
 import Example from "./Comp/HorizentralScroll/app";
 import Index from "./Comp/generate-image-guide";
 import VideoFrame from "./Comp/FrameEffct/app";
-import LogoAnimation from "./Comp/3dLogoAnimation/index";
 import BlurClear from "./Comp/blurclear";
 import { VercelDesign } from "./Comp/vercel";
 import BlurClearSar from "./Comp/blurclear-sarthak";
+import LogoAnimation from "./Comp/3dLogoAnimation/index";
 // import { ThreeDCardDemo } from './Comp/threeDCard/index'
 // import ScrollThreeD './Comp/'
 function AppToRender() {
@@ -51,8 +51,8 @@ function AppToRender() {
       <Index />
       <BlurClear />
       <BlurClearSar />
-      <VercelDesign /> 
-
+      {/* <VercelDesign />  */}
+      <LogoAnimation/>
       {/* <AppAnimation/>{" "} */}
       {/* <MenuMain1 />
 

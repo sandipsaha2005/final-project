@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export const RevealLinks = () => {
   return (
-    <section className="grid place-content-center gap-2 bg-[#0073cc] px-8 py-24 text-black">
+    <section className="flex flex-col justify-between bg-[#0073cc] px-8 py-24 text-black h-full ">
       <FlipLink href="#">Twitter</FlipLink>
       <FlipLink href="#">Linkedin</FlipLink>
       <FlipLink href="#">Facebook</FlipLink>
@@ -49,7 +49,7 @@ const FlipLink = ({ children, href }) => {
           </motion.span>
         ))}
       </div>
-      <div className="absolute inset-0">
+      <div className="absolute inset-0 pt-4">
         {children.split("").map((l, i) => (
           <motion.span
             variants={{

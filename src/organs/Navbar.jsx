@@ -16,9 +16,10 @@ import Nav from "../Comp/NavBar/app";
 import CloseIcon from "@mui/icons-material/Close";
 import { keyframes } from "@emotion/react";
 import { RevealLinks } from "../Comp/newNav/app";
+import { useMediaQuery } from "@mui/material";
 function NavbarDemo() {
   const [rotation, setRotation] = useState(false);
-
+  const isMobile = useMediaQuery("(max-width:768px)");
   const rotate = keyframes`
   0% {
     transform: rotate(0deg);
@@ -49,14 +50,17 @@ function NavbarDemo() {
     <div className="z-[100]  fixed top-5 right-5 ">
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
-          <Button onClick={toggleDrawer(anchor, true)}>
+          <Button onClick={toggleDrawer(anchor, true)} style={{
+                width: isMobile ? "80%" : "60%",  // Apply different width for mobile
+                height: isMobile ? "80px" : "40px", // Apply different height for mobile
+              }}>
             {" "}
             <lord-icon
               src="https://cdn.lordicon.com/eouimtlu.json"
               trigger="loop-on-hover"
               colors="primary:#f2e8dc"
-              style={{ width: "50px", height: "40px" }}
-            ></lord-icon>{" "}
+style={{height:'full',width:'full'}}
+            ></lord-icon>
             {/* <WidgetsIcon
               className="icon"
               fontSize="large"
@@ -67,7 +71,7 @@ function NavbarDemo() {
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
-            sx={{ backgroundColor: "black", width: "100%" }}
+            sx={{ backgroundColor: "black", width: "100%",height:'100%' }}
           >
             <Button
               style={{
