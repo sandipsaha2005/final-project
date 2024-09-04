@@ -30,6 +30,7 @@ import Index from "./Comp/generate-image-guide";
 import VideoFrame from "./Comp/FrameEffct/app";
 import LogoAnimation from './Comp/3dLogoAnimation/index'
 import BlurClear from "./Comp/blurclear";
+
 // import { ThreeDCardDemo } from './Comp/threeDCard/index'
 // import ScrollThreeD './Comp/'
 function AppToRender() {
@@ -40,11 +41,11 @@ function AppToRender() {
 
   return (
     <>
-      <NavbarDemo />
+      {/* <NavbarDemo />
       <CardDemo />
       <ScrollBasedVelocityDemo />
       <VideoFrame/>
-      <Example />
+      <Example /> */}
       <Index/>
       <BlurClear/>
       <LogoAnimation/>
@@ -59,7 +60,7 @@ function AppToRender() {
        <MarqueeDemo />
        <MenuMain />  */}
       {/* <PlaceholdersAndVanishInputDemo/> */}
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }

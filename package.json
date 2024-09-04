@@ -47,6 +47,7 @@
     "tailwindcss-text-fill-stroke": "^1.1.0",
     "three": "^0.168.0",
     "three-globe": "^2.31.1",
+    "three-stdlib": "^2.32.2",
     "video.js": "^8.16.1",
     "webfont": "^6.0.2",
     "zustand": "^4.5.4"

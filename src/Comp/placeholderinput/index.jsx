@@ -82,9 +82,9 @@ export function PlaceholdersAndVanishInputDemo() {
           alignItems:'center'
         }}
       >
-        {loader ?<> <img src={'./loader.gif'} alt="" />  </>: 
+        {loader ?<> <img src={'./loader.gif'} alt=""  className="object-cover object-left-top"/>  </>: 
         // <ThreeDCardDemo title={'Taking'} src={imageURL ? imageURL : './cow.jpeg'} /> 
-        <img src={imageURL ? imageURL : './cow.jpeg'} alt=""/>
+        <img src={imageURL ? imageURL : './cow.jpeg'} alt="" className="object-cover object-left-top"/>
         }
         
       </div>
