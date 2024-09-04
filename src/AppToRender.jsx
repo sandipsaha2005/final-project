@@ -27,6 +27,7 @@ import { PlaceholdersAndVanishInputDemo } from "./Comp/textField";
 import { CardDemo } from "./Comp/HoverVideo/app";
 import Example from "./Comp/HorizentralScroll/app";
 import Index from "./Comp/generate-image-guide";
+import LogoAnimation from "./Comp/3dLogoAnimation";
 // import { ThreeDCardDemo } from './Comp/threeDCard/index'
 // import ScrollThreeD './Comp/'
 function AppToRender() {
@@ -44,6 +45,10 @@ function AppToRender() {
       
       <Example />
       <Index/>
+     
+      <LogoAnimation/>
+      
+      
       {/* <AppAnimation/>{" "} */}
       {/* <MenuMain1 />
 
@@ -53,7 +58,7 @@ function AppToRender() {
        <MarqueeDemo />
        <MenuMain />  */}
       {/* <PlaceholdersAndVanishInputDemo/> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
