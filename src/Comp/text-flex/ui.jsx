@@ -1,4 +1,4 @@
-"use client";
+
 import React, { useRef, useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
@@ -72,7 +72,7 @@ export const TextHoverEffect = ({ text, duration }) => {
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.3"
-        className="font-[helvetica] font-bold stroke-neutral-200  fill-transparent text-7xl"
+        className=" font-bold stroke-neutral-200  fill-transparent text-7xl"
         style={{ opacity: hovered ? 0.7 : 0 }}
       >
         {text}
@@ -83,7 +83,7 @@ export const TextHoverEffect = ({ text, duration }) => {
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.3"
-        className="font-[helvetica] font-bold fill-transparent text-7xl stroke-neutral-200 "
+        className=" font-bold fill-transparent text-7xl stroke-neutral-200 "
         initial={{ strokeDashoffset: 1000, strokeDasharray: 1000 }}
         animate={{
           strokeDashoffset: 0,
@@ -104,7 +104,7 @@ export const TextHoverEffect = ({ text, duration }) => {
         stroke="url(#textGradient)"
         strokeWidth="0.3"
         mask="url(#textMask)"
-        className="font-[helvetica] font-bold text-7xl"
+        className="font-bold text-7xl"
       >
         {text}
       </text>

@@ -53,7 +53,7 @@ function AppToRender() {
        <MarqueeDemo />
        <MenuMain />  */}
       {/* <PlaceholdersAndVanishInputDemo/> */}
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

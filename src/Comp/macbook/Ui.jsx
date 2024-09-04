@@ -55,7 +55,7 @@ export const MacbookScroll = ({
   return (
     (<div
       ref={ref}
-      className="min-h-[200vh]  flex flex-col items-center py-0 md:py-80 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50">
+      className="min-h-[200vh]  flex flex-col items-center py-0 md:py-10 justify-start flex-shrink-0 [perspective:800px] transform md:scale-100  scale-[0.35] sm:scale-50">
       <motion.h2
         style={{
           translateY: textTransform,
@@ -91,6 +91,7 @@ export const MacbookScroll = ({
           </div>
           <div className="mx-auto w-[10%] overflow-hidden  h-full">
             <SpeakerGrid />
+            
           </div>
         </div>
         <Trackpad />
@@ -100,7 +101,7 @@ export const MacbookScroll = ({
           <div
             className="h-40 w-full absolute bottom-0 inset-x-0 bg-gradient-to-t dark:from-black from-white via-white dark:via-black to-transparent z-50"></div>
         )}
-        {badge && <div className="absolute bottom-4 left-4">{badge}</div>}
+       
       </div>
     </div>)
   );
