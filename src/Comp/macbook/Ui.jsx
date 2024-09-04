@@ -128,8 +128,8 @@ export const Lid = ({
             boxShadow: "0px 2px 0px 2px var(--neutral-900) inset",
           }}
           className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center">
-          <span className="text-white">
-            <AceternityLogo />
+          <span className="text-white text-md bg-gradient-to-tr bg-clip-text from-indigo-600 to-violet-600">
+              FLUX.1 AI
           </span>
         </div>
       </div>
