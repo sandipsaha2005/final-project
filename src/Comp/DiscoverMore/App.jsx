@@ -2,6 +2,7 @@ import { useMotionValue, motion, useSpring, useTransform } from "framer-motion";
 import React, { useRef } from "react";
 import { FiArrowRight } from "react-icons/fi";
 import PropTypes from 'prop-types';
+
 export const HoverImageLinks = () => {
   return (
     <section className="bg-neutral-950 p-4 md:p-8">
@@ -101,7 +102,7 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
             staggerChildren: 0.075,
             delayChildren: 0.25,
           }}
-          className="relative z-10 block text-4xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-6xl"
+          className="relative z-10 block text-3xl font-bold text-neutral-500 transition-colors duration-500 group-hover:text-neutral-50 md:text-5xl"
         >
           {heading.split("").map((l, i) => (
             <motion.span
@@ -160,8 +161,8 @@ const Link = ({ heading, imgSrc, subheading, href }) => {
 };
 
 Link.propTypes = {
-    heading: PropTypes.string.isRequired,
-    imgSrc: PropTypes.string.isRequired,  
-    subheading: PropTypes.string,         
-    href: PropTypes.string,             
-  };
+  heading: PropTypes.string.isRequired,
+  imgSrc: PropTypes.string.isRequired,
+  subheading: PropTypes.string,
+  href: PropTypes.string,
+};
