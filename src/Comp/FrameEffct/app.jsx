@@ -7,7 +7,7 @@ const VideoFrame = () => {
     const canvasRef = useRef(null);
     const frames = {
         currentIndex: 0,
-        maxIndex: 1539
+        maxIndex: 1426
     };
     const images = useRef([]);
     let imageLoaded = 0;

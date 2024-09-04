@@ -51,7 +51,7 @@ function AppToRender() {
       <Index />
       <BlurClear />
       <BlurClearSar />
-      <LogoAnimation />
+      <VercelDesign /> 
 
       {/* <AppAnimation/>{" "} */}
       {/* <MenuMain1 />

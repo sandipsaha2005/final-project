@@ -10,7 +10,8 @@ const black = new THREE.MeshBasicMaterial({ color: 'black', toneMapped: false })
 const cylinder = new THREE.CylinderGeometry(0.6, 0.6, 0.5, 3);
 
 export const VercelDesign = ({ amount = 12 }) => (
-  <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 5], fov: 50 }} className='h-36'>
+  <div style={{ height: '50vh', width: '100vw' }}>
+  <Canvas dpr={[1, 2]} camera={{ position: [0, 0, 5], fov: 50 }} style={{ width: "100%", height: "60%" }} >
     <Physics gravity={[0, 1, 0]}>
       {Array.from({ length: amount }, (_, i) => {
         const El = i % 2 ? Pmndrs : Vercel;
@@ -36,6 +37,7 @@ export const VercelDesign = ({ amount = 12 }) => (
       />
     </Physics>
   </Canvas>
+  </div>
 );
 
 function Vercel(props) {

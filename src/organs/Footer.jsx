@@ -11,7 +11,7 @@ function Footer() {
   const [show1, setShow1] = useState(false);
   return (
     <footer className="bg-[#09090b]" id="footer">
-      <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
+      <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-10 sm:px-6 lg:px-8 lg:pt-24">
         <div className="text-center">
           <h2 className="text-3xl font-extrabold text-indigo-500 sm:text-5xl dark:text-white">
             FLUX.1 AI

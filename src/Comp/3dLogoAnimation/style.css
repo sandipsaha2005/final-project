@@ -1,4 +1,4 @@
-@import url('@pmndrs/branding/styles.css');
+/* @import url('@pmndrs/branding/styles.css');
 
 * {
   box-sizing: border-box;
@@ -116,6 +116,7 @@ canvas {
   opacity: 0;
   touch-action: none;
   animation: fade-in 2s ease 0.5s forwards;
-  height: 100px;
+  height: 300;
+  width: 1137;
   scale: 2;
-}
+} */
