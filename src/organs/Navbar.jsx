@@ -15,7 +15,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import Nav from "../Comp/NavBar/app";
 import CloseIcon from "@mui/icons-material/Close";
 import { keyframes } from "@emotion/react";
-
+import { RevealLinks } from "../Comp/newNav/app";
 function NavbarDemo() {
   const [rotation, setRotation] = useState(false);
 
@@ -77,7 +77,7 @@ function NavbarDemo() {
                 width: "100%",
                 paddingLeft: "25px",
                 paddingTop: "20px",
-                backgroundColor: "#f8c792",
+                backgroundColor: "#0073cc",
               }}
               // onClick={toggleDrawer(anchor, false)}
             >
@@ -101,7 +101,7 @@ function NavbarDemo() {
                   >
               </lord-icon>
             </Button>
-            <Nav />
+            <RevealLinks/>
           </Drawer>
         </React.Fragment>
       ))}
