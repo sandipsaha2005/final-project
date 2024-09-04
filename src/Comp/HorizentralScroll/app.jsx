@@ -4,19 +4,7 @@ import React from "react";
 
 const Example = () => {
   return (
-    <div className="bg-neutral-800">
-      <div className="flex h-48 items-center justify-center">
-        <span className="font-semibold uppercase text-neutral-500">
-          Scroll down
-        </span>
-      </div>
       <HorizontalScrollCarousel />
-      {/* <div className="flex h-48 items-center justify-center">
-        <span className="font-semibold uppercase text-neutral-500">
-          Scroll up
-        </span>
-      </div> */}
-    </div>
   );
 };
 
@@ -84,7 +72,7 @@ const cards = [
     },
     {
       url: "https://i.pinimg.com/originals/c6/17/37/c61737b9c36c99f32337896323f475bf.gif",
-      title: "Revolution",
+      title: "AI",
       id: 4,
     },
     {

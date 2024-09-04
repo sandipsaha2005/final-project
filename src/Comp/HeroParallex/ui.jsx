@@ -104,7 +104,7 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-30 px-4 w-full left-0 top-0 ">
      <h1 className="text-2xl md:text-6xl font-bold dark:text-white">
-  <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#00BFFF] to-[#0033FF]">FLUX AI</span><br /> 
+  <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#00BFFF] to-[#0033FF] text-2xl md:text-7xl">FLUX AI</span><br /> 
   Empowering the Future of Intelligence!
 </h1>
 <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
