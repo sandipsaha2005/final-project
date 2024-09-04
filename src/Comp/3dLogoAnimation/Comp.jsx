@@ -42,7 +42,7 @@ function VideoText(props) {
   useEffect(() => void video.play(), [video]);
   return (
     <Text font="/Inter-Bold.woff" fontSize={3} letterSpacing={-0.06} {...props}>
-      FLUX
+      FLUX.1
       <meshBasicMaterial toneMapped={false}>
         <videoTexture attach="map" args={[video]} encoding={THREE.sRGBEncoding} />
       </meshBasicMaterial>
