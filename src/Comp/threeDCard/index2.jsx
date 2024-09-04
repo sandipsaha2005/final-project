@@ -7,7 +7,7 @@ import { BiGasPump } from 'react-icons/bi';
 export function ThreeDCardDemo({src,title,desc,bg,shadow}) {
   // console.log(src);
   return (
-    <CardContainer className="inter-var">
+    <CardContainer className="inter-var flex justify-center">
       <CardBody className={`relative group/card hover:shadow-2xl ${shadow} bg-[#09090b]  w-20 sm:w-[40rem] h-20 rounded-xl p-2`}>
         <CardItem
           translateZ="50"
