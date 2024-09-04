@@ -27,7 +27,7 @@ import { PlaceholdersAndVanishInputDemo } from "./Comp/textField";
 import { CardDemo } from "./Comp/HoverVideo/app";
 import Example from "./Comp/HorizentralScroll/app";
 import Index from "./Comp/generate-image-guide";
-import LogoAnimation from "./Comp/3dLogoAnimation";
+import VideoFrame from "./Comp/FrameEffct/app";
 // import { ThreeDCardDemo } from './Comp/threeDCard/index'
 // import ScrollThreeD './Comp/'
 function AppToRender() {
@@ -41,9 +41,7 @@ function AppToRender() {
       <NavbarDemo />
       <CardDemo />
       <ScrollBasedVelocityDemo />
-      <HeroParallaxDemo />
-      
-      
+      <VideoFrame/>
       <Example />
       <Index/>
      
