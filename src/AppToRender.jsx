@@ -24,6 +24,8 @@ import { TracingBeamDemo } from "./Comp/TraceBeam/App";
 import Nav from "./Comp/NavBar/app";
 import { PlaceholdersAndVanishInputDemo } from './Comp/textField'
 // import  AppAnimation  from './Comp/3dRoller/app'
+import { CardDemo } from "./Comp/HoverVideo/app";
+import Example from "./Comp/HorizentralScroll/app";
 
 // import { ThreeDCardDemo } from './Comp/threeDCard/index'
 // import ScrollThreeD './Comp/'
@@ -39,6 +41,8 @@ function AppToRender() {
 
        <HeroParallaxDemo />
        <ScrollBasedVelocityDemo />
+       <CardDemo/>
+       <Example/>
        {/* <AppAnimation/>{" "} */}
        {/* <MenuMain1 />
 
