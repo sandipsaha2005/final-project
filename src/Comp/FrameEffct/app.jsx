@@ -18,7 +18,7 @@ const VideoFrame = () => {
 
         function preloadImages() {
             for (let i = 1; i <= frames.maxIndex; i++) {
-                let imgUrl = `../../../public/Frames/frame_${i.toString().padStart(4, '0')}.jpeg`;
+                let imgUrl = `./Frames/frame_${i.toString().padStart(4, '0')}.jpeg`;
                 const img = new Image();
                 img.src = imgUrl;
                 img.onload = function () {
