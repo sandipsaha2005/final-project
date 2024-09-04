@@ -32,6 +32,7 @@ import LogoAnimation from "./Comp/3dLogoAnimation/index";
 import BlurClear from "./Comp/blurclear";
 import { VercelDesign } from "./Comp/vercel";
 import BlurClearSar from "./Comp/blurclear-sarthak";
+import { HoverImageLinks } from "./Comp/discover/app";
 // import { ThreeDCardDemo } from './Comp/threeDCard/index'
 // import ScrollThreeD './Comp/'
 function AppToRender() {
@@ -53,6 +54,7 @@ function AppToRender() {
       <BlurClear />
       <BlurClearSar />
       <LogoAnimation />
+      <HoverImageLinks/>
 
       {/* <AppAnimation/>{" "} */}
       {/* <MenuMain1 />
