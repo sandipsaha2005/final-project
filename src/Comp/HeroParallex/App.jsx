@@ -22,54 +22,53 @@ export function HeroParallaxDemo() {
 
 export const products = [
   {
-    title: "VALIR",
-    link: "https://gomoonbeam.com",
-    thumbnail: "https://www.icegif.com/wp-content/uploads/2023/02/icegif-1117.gif",
+    title: "Flux1 AI Suite",
+    link: "https://flux1.ai",
+    thumbnail: "https://news.ubc.ca/wp-content/uploads/2023/08/AdobeStock_559145847.jpeg", // Update with a relevant image
   },
   {
-    title: "CHOU",
-    link: "https://cursor.so",
-    thumbnail: "https://i.pinimg.com/originals/bd/72/3d/bd723ddfda02d53ad142787f55ff601d.gif",
+    title: "AI Tools Hub",
+    link: "https://aitoolshub.com",
+    thumbnail: "https://res.cloudinary.com/jerrick/image/upload/c_scale,f_jpg,q_auto/64f8f04ae3e006001d8d6d0b.webp", // Update with a relevant image
   },
   {
-    title: "FRANCO",
-    link: "https://userogue.com",
-    thumbnail: "https://i.makeagif.com/media/2-26-2021/KvUaKr.gif",
+    title: "AI Innovations",
+    link: "https://aiinnovations.com",
+    thumbnail: "https://www.state.gov/wp-content/uploads/2021/06/AI-Motherboard-scaled.jpg", // Update with a relevant image
   },
   {
-    title: "DYRROTH",
-    link: "https://editorially.org",
-    thumbnail: "https://pa1.aminoapps.com/7345/b84c4d94e8af89a92f32cd0733e400bf0928a031r1-554-298_hq.gif",
+    title: "Machine Learning Pro",
+    link: "https://machinelearningpro.com",
+    thumbnail: "https://envisage.nz/wp-content/uploads/2023/02/coNTrolAi_cyborg_holding_a_magic_flower_romantic_pose_neon.jpg", // Update with a relevant image
   },
   {
-    title: "LANCLORT",
-    link: "https://editrix.ai",
-    thumbnail: "https://www.icegif.com/wp-content/uploads/2023/02/icegif-1120.gif",
+    title: "Data Science Central",
+    link: "https://datasciencecentral.com",
+    thumbnail: "https://www.fujitsu.com/global/imagesgig5/ai-banner-800x450_tcm100-7204059_tcm100-6286607-32.jpg", // Update with a relevant image
   },
   {
-    title: "HAYABUSA",
-    link: "https://app.pixelperfect.quest",
-    thumbnail: "https://i.makeagif.com/media/2-05-2021/B78oOk.gif",
+    title: "AI for Everyone",
+    link: "https://aiforeveryone.com",
+    thumbnail: "https://www.elegantthemes.com/blog/wp-content/uploads/2023/06/What-is-AI-1.jpg", // Update with a relevant image
   },
   {
-    title: "HANABI",
-    link: "https://algochurn.com",
-    thumbnail: "https://64.media.tumblr.com/73d7ab35314f93128ac46a7229faf0a6/1aa98dd9f56ce2a9-fe/s540x810/e9eb0c9ffbb7cc6b390b047f4ddab8f6693f6e19.gifv",
+    title: "AI Research Lab",
+    link: "https://airesearchlab.com",
+    thumbnail: "https://imgv3.fotor.com/images/share/wonderland-girl-generated-by-Fotor-ai-art-generator.jpg", // Update with a relevant image
   },
   {
-    title: "LING",
-    link: "https://ui.aceternity.com",
-    thumbnail: "https://64.media.tumblr.com/54af38948191ffff36babc7d862672ff/406a8ea9be27e3b8-40/s500x750/af7e62ee315ac0c3bc3372895ce089dfa9b628b2.gifv",
+    title: "Smart AI Solutions",
+    link: "https://smartaisolutions.com",
+    thumbnail: "https://etimg.etb2bimg.com/photo/100062546.cms", // Update with a relevant image
   },
   {
-    title: "FREYA",
-    link: "https://tailwindmasterkit.com",
-    thumbnail: "https://i.makeagif.com/media/9-08-2022/L6sOO5.gif",
+    title: "Advanced AI Tools",
+    link: "https://advancedaitools.com",
+    thumbnail: "https://etimg.etb2bimg.com/photo/100062546.cms", // Update with a relevant image
   },
   {
-    title: "HANZO",
-    link: "https://smartbridgetech.com",
-    thumbnail: "https://pa1.aminoapps.com/7345/292b74fff7f786b08db661a3530672677171c793r1-551-345_hq.gif",
+    title: "Future of AI",
+    link: "https://futureofai.com",
+    thumbnail: "https://cdn.sanity.io/images/tlr8oxjg/production/afce27d5dcb021422c709cb5bf60cb3a33f7376d-1456x816.png?w=3840&q=100&fit=clip&auto=format", // Update with a relevant image
   },
-  
 ];
