@@ -31,7 +31,7 @@ import VideoFrame from "./Comp/FrameEffct/app";
 import BlurClear from "./Comp/blurclear";
 import { VercelDesign } from "./Comp/vercel";
 import BlurClearSar from "./Comp/blurclear-sarthak";
-import LogoAnimation from "./Comp/3dLogoAnimation/index";
+import { HoverImageLinks } from "./Comp/discover/app";
 // import { ThreeDCardDemo } from './Comp/threeDCard/index'
 // import ScrollThreeD './Comp/'
 function AppToRender() {
@@ -46,13 +46,15 @@ function AppToRender() {
       <NavbarDemo />
       <CardDemo />
       <ScrollBasedVelocityDemo />
-      <VideoFrame/>
+      <HeroParallaxDemo />
+      <VideoFrame />
       <Example />
       <Index />
       <BlurClear />
       <BlurClearSar />
-      {/* <VercelDesign />  */}
-      <LogoAnimation/>
+      <LogoAnimation />
+      <HoverImageLinks />
+
       {/* <AppAnimation/>{" "} */}
       {/* <MenuMain1 />
 
