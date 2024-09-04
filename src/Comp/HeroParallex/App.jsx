@@ -4,7 +4,7 @@ import { HeroParallax } from "./ui";
 
 export function HeroParallaxDemo() {
   return (
-    <div>
+    <div className="pb-4">
       <HeroParallax products={products} />
       {/* <ul>
         {products.map((product, index) => (
