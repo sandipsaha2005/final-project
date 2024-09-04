@@ -1,6 +1,6 @@
 import { cn } from '../../utils/cn'
 import React from 'react';
-
+import { TextHoverEffectDemo } from '../text-flex/app';
 export function CardDemo() {
   return (
     <div className="w-screen h-screen flex items-center justify-center bg-gray-900">
@@ -15,9 +15,7 @@ export function CardDemo() {
         )}
       >
         <div className="text relative z-50">
-          <h1 className="font-bold text-4xl md:text-8xl text-gray-50 uppercase">
-            Fill The Experience
-          </h1>
+          <TextHoverEffectDemo/>
         </div>
       </div>
     </div>
