@@ -16,7 +16,7 @@ export function MacbookScrollDemo() {
             <Badge className="h-10 w-10 transform -rotate-12" />
           </a>
         }
-        src={`/linear.webp`}
+        src={`https://images.getimg.ai/resize?url=https%3A%2F%2Fimg.getimg.ai%2Fgenerated%2Fimg-G89DMLLfJXS6TfRMFgXwD.jpeg&type=auto&width=1080&speed=5`}
         showGradient={false} />
     </div>)
   );
