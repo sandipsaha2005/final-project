@@ -15,7 +15,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import Nav from "../Comp/NavBar/app";
 import CloseIcon from "@mui/icons-material/Close";
 import { keyframes } from "@emotion/react";
-import { HoverImageLinks } from "../Comp/newNavbar";
+import { RevealLinks } from "../Comp/newNav/app";
 function NavbarDemo() {
   const [rotation, setRotation] = useState(false);
 
@@ -62,13 +62,12 @@ function NavbarDemo() {
               fontSize="large"
               sx={{ color: "#f2e8dc" }}
             />{" "} */}
-
           </Button>
           <Drawer
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
-            sx={{ backgroundColor: "black",width:'100%' }}
+            sx={{ backgroundColor: "black", width: "100%" }}
           >
             <Button
               style={{
@@ -77,7 +76,7 @@ function NavbarDemo() {
                 width: "100%",
                 paddingLeft: "25px",
                 paddingTop: "20px",
-                backgroundColor: "#f8c792",
+                backgroundColor: "#0073cc",
               }}
               // onClick={toggleDrawer(anchor, false)}
             >
@@ -91,17 +90,16 @@ function NavbarDemo() {
               /> */}
 
               <lord-icon
-                  src="https://cdn.lordicon.com/nqtddedc.json"
-                  trigger="loop-on-hover"
-                  delay="100"
-                  state="hover-cross-2"
-                  colors="primary:#000000"
-                  style={{ width: "200px", height: "50px" }}
-                  onClick={toggleDrawer(anchor, false)}
-                  >
-              </lord-icon>
+                src="https://cdn.lordicon.com/nqtddedc.json"
+                trigger="loop-on-hover"
+                delay="100"
+                state="hover-cross-2"
+                colors="primary:#000000"
+                style={{ width: "200px", height: "50px" }}
+                onClick={toggleDrawer(anchor, false)}
+              ></lord-icon>
             </Button>
-            <HoverImageLinks />
+            <RevealLinks />
           </Drawer>
         </React.Fragment>
       ))}

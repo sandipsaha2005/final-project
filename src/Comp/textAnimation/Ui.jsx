@@ -86,10 +86,10 @@ const VelocityScroll = ({ className }) => {
   return (
     <section className="relative w-full flex flex-col gap-8 py-32">
       <ParallaxText baseVelocity={2} className={className}>
-        <span className=" bg-clip-text text-transparent bg-gradient-to-b from-[#FFCC00] via-[#ECBD00] to-neutral-300 ">Mobile Legends:</span> <span className="text-white">Bang Bang</span>
+        <span className=" bg-clip-text text-transparent bg-gradient-to-b from-indigo-500 via-indigo-600 to-neutral-300 ">FLUX1</span> <span className="text-white">HACK THE FUTURE</span>
       </ParallaxText>
       <ParallaxText baseVelocity={-2} className={className}>
-        <span className=" text-white">Mobile Legends:</span> <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#FFCC00] via-[#ECBD00] to-neutral-300">Bang Bang</span>
+      <span className=" bg-clip-text text-transparent bg-gradient-to-b from-indigo-500 via-indigo-600 to-neutral-300 ">FLUX1</span> <span className="text-white">HACK THE FUTURE</span>
       </ParallaxText>
     </section>
   );

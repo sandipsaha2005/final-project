@@ -103,59 +103,14 @@ export const Header = () => {
   const [show1,setShow1]=useState(false);
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-30 px-4 w-full left-0 top-0 ">
-      <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-     <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#FFCC00] to-neutral-300"> FLUX1</span><br /> Where Legends are Born!
-      </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-      Unleash your potential in 5v5 battles, master legendary heroes, and lead your team to glorious victory. Your legend starts here!
-      </p>
-      <div className="flex gap-4 mt-5">
-      {show1 !== true && (
-              <div onClick={()=>setShow((prev)=>!prev)} className="border-2 border-[#C3A26C] rounded-md z-[1000]">
-            <AnimatedSubscribeButton
-              buttonColor="#000000"
-              buttonTextColor="#ffffff"
-              subscribeStatus={false}
-              initialText={
-                <span className="group inline-flex items-center">
-                  <FaApple className="mr-2 text-xl transition-transform duration-300 ease-in-out group-hover:scale-150" />
-                  Download{" "}
-                  <ChevronRightIcon className="ml-1 h-5 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-                </span>
-              }
-              changeText={
-                <span className="group inline-flex items-center">
-                  <CheckIcon className="mr-2 h-4 w-4" />
-                  Complete{" "}
-                </span>
-              }
-            />
-            </div>
-            )}
-            
-            {show !== true && (
-              <div onClick={()=>setShow1((prev)=>!prev)}  className="border-2 border-[#C3A26C] rounded-md z-[1000]">
-            <AnimatedSubscribeButton
-              buttonColor="#000000"
-              buttonTextColor="#ffffff"
-              subscribeStatus={false}
-              initialText={
-                <span className="group inline-flex items-center">
-                  <DiAndroid className="mr-2 text-xl transition-transform duration-300 ease-in-out group-hover:scale-150" />
-                  Download{" "}
-                  <ChevronRightIcon className="ml-1 h-5 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-                </span>
-              }
-              changeText={
-                <span className="group inline-flex items-center">
-                  <CheckIcon className="mr-2 h-4 w-4" />
-                  Complete{" "}
-                </span>
-              }
-            />
-            </div>
-            )}
-            </div>
+     <h1 className="text-2xl md:text-6xl font-bold dark:text-white">
+  <span className="bg-clip-text text-transparent bg-gradient-to-b from-[#00BFFF] to-[#0033FF]">FLUX AI</span><br /> 
+  Empowering the Future of Intelligence!
+</h1>
+<p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
+  Dive into cutting-edge AI technology, unlock advanced solutions, and drive innovation with our state-of-the-art platform.
+</p>
+
     </div>
   );
 };
