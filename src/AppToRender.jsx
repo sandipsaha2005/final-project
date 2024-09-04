@@ -23,7 +23,7 @@ import MenuMain from "./Comp/menuGrid/app";
 import { TracingBeamDemo } from "./Comp/TraceBeam/App";
 import Nav from "./Comp/NavBar/app";
 import { PlaceholdersAndVanishInputDemo } from './Comp/textField'
-
+import Index from "./Comp/generate-image-guide";
 // import { ThreeDCardDemo } from './Comp/threeDCard/index'
 // import ScrollThreeD './Comp/'
 function AppToRender() {
@@ -37,15 +37,15 @@ function AppToRender() {
       <NavbarDemo />
 
        <HeroParallaxDemo />
-       <ScrollBasedVelocityDemo />
+       {/* <ScrollBasedVelocityDemo /> */}
        <MenuMain1 />
-
-       <TracingBeamDemo />
+      <Index/>
+       {/* <TracingBeamDemo /> */}
   
-       <ScrollThreeD />
+       {/* <ScrollThreeD />
        <MarqueeDemo />
-       <MenuMain /> 
-      <PlaceholdersAndVanishInputDemo/>
+       <MenuMain />  */}
+      {/* <PlaceholdersAndVanishInputDemo/> */}
        <Footer />  
     </>
   );

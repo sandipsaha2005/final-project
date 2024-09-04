@@ -15,7 +15,7 @@ import MailIcon from "@mui/icons-material/Mail";
 import Nav from "../Comp/NavBar/app";
 import CloseIcon from "@mui/icons-material/Close";
 import { keyframes } from "@emotion/react";
-
+import { HoverImageLinks } from "../Comp/newNavbar";
 function NavbarDemo() {
   const [rotation, setRotation] = useState(false);
 
@@ -68,7 +68,7 @@ function NavbarDemo() {
             anchor={anchor}
             open={state[anchor]}
             onClose={toggleDrawer(anchor, false)}
-            sx={{ backgroundColor: "black" }}
+            sx={{ backgroundColor: "black",width:'100%' }}
           >
             <Button
               style={{
@@ -96,12 +96,12 @@ function NavbarDemo() {
                   delay="100"
                   state="hover-cross-2"
                   colors="primary:#000000"
-                  style={{ width: "60px", height: "50px" }}
+                  style={{ width: "200px", height: "50px" }}
                   onClick={toggleDrawer(anchor, false)}
                   >
               </lord-icon>
             </Button>
-            <Nav />
+            <HoverImageLinks />
           </Drawer>
         </React.Fragment>
       ))}
