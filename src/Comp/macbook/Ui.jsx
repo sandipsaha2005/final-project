@@ -145,7 +145,7 @@ export const Lid = ({
         className="h-96 w-[32rem] absolute inset-0 bg-[#010101] rounded-2xl p-2">
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
         <img
-          src={'./resize.webp'}
+          src={'https://i.pinimg.com/originals/70/eb/0b/70eb0b53eb57c91db403928c5d02a19a.gif'}
           alt="aceternity logo"
           fill
           className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full" />

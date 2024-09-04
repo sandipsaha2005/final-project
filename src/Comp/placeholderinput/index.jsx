@@ -52,12 +52,13 @@ export function PlaceholdersAndVanishInputDemo() {
   }, [imageURL])
 
   const placeholders = [
-    "What's the first rule of Fight Club?",
-    "Who is Tyler Durden?",
-    "Where is Andrew Laeddis Hiding?",
-    "Write a Javascript method to reverse a string",
-    "How to assemble your own PC?",
+    "Search for AI-generated images...",
+    "What does a futuristic city look like?",
+    "Find the perfect design for your project...",
+    "How would a robot revolution appear?",
+    "Explore AI art and visuals...",
   ];
+  
 
   // const handleChange = (e) => {
   //   console.log(e.target.value);
