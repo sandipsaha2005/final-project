@@ -3,19 +3,20 @@ import React from "react";
 import { PlaceholdersAndVanishInput } from "./Ui";
 import { useState } from "react";
 import { useEffect } from "react";
+import { ThreeDCardDemo } from "../threeDCard/index2";
 export function PlaceholdersAndVanishInputDemo() {
-  const [inputText, setInputText] = useState('');
+  const [inputText, setInputText] = useState("");
   const [imageURL, setImageURL] = useState(null);
-  const [loader,setLoader]=useState(false)
+  const [loader, setLoader] = useState(false);
   const handleChange = (e) => {
     setInputText(e.target.value);
   };
 
-  const token='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'
+  const token = "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";
 
   const generateImage = async () => {
     const query = async (data) => {
-        setLoader(true)
+      setLoader(true);
       const response = await fetch(
         "https://api-inference.huggingface.co/models/CompVis/stable-diffusion-v1-4",
         // "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1-dev",
@@ -28,6 +29,8 @@ export function PlaceholdersAndVanishInputDemo() {
           body: JSON.stringify(data),
         }
       );
+      console.log(response);
+
       const result = await response.blob();
       return result;
     };
@@ -41,15 +44,15 @@ export function PlaceholdersAndVanishInputDemo() {
       setImageURL(imageObjectURL);
     } catch (error) {
       console.error("Error generating image:", error);
-      setLoader(false)
+      setLoader(false);
     }
   };
 
   useEffect(() => {
-    if(imageURL){
-        setLoader(false)
+    if (imageURL) {
+      setLoader(false);
     }
-  }, [imageURL])
+  }, [imageURL]);
 
   const placeholders = [
     "Search for AI-generated images...",
@@ -58,7 +61,6 @@ export function PlaceholdersAndVanishInputDemo() {
     "How would a robot revolution appear?",
     "Explore AI art and visuals...",
   ];
-  
 
   // const handleChange = (e) => {
   //   console.log(e.target.value);
@@ -78,10 +80,36 @@ export function PlaceholdersAndVanishInputDemo() {
         onSubmit={generateImage}
       />
       <div
-        className="h-[40rem] flex flex-col justify-center  items-center px-4 dark:bg-[#0B0B0F]"
-        style={{ display: "flex", justifyContent: "center" }}
+        className="h-[40rem] w-full flex  justify-center  items-center px-4 dark:bg-[#0B0B0F] border-blue-500"
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          // maxHeight: "500px",
+          alignItems: "center",
+          width:'100%',
+          maxWidth:'300px'
+        }}
       >
-        <img height="100px" width="55%" src={imageURL ? imageURL : "./free-images.jpg"} alt="" />
+        {loader ? (
+          <>
+            {" "}
+            <img
+              src={"./loader.gif"}
+              alt=""
+              className="object-cover object-left-top"
+            />{" "}
+          </>
+        ) : (
+          // <ThreeDCardDemo title={'Taking'} src={imageURL ? imageURL : './cow.jpeg'} />
+          <img
+          height='100%'
+          width='100%'
+            src={imageURL ? imageURL : "./Search_first.png"}
+            alt=""
+            className="object-cover object-left-top"
+          />
+          
+        )}
       </div>
     </div>
   );
