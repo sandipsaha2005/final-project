@@ -9,7 +9,7 @@ export default function App() {
 <Canvas
   gl={{ alpha: true }}
   pixelRatio={[1, 2]}  // Increase pixel ratio for smoother rendering
-  camera={{ position: [0, 2, 50], fov: 25 }} // Adjust camera settings if necessary
+  camera={{ position: [0, 2, 50], fov: 22 }} // Adjust camera settings if necessary
   style={{ height: '80vh', width: '100%' }} // Make sure Canvas takes the full width and updated height
 >
   <color attach="background" args={['black']} />

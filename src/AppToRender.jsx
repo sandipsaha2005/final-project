@@ -32,6 +32,7 @@ import BlurClear from "./Comp/blurclear";
 import { VercelDesign } from "./Comp/vercel";
 import BlurClearSar from "./Comp/blurclear-sarthak";
 import { HoverImageLinks } from "./Comp/discover/app";
+import LogoAnimation from './Comp/3dLogoAnimation'
 // import { ThreeDCardDemo } from './Comp/threeDCard/index'
 // import ScrollThreeD './Comp/'
 function AppToRender() {
