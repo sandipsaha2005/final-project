@@ -22,6 +22,8 @@
     "@react-three/fiber": "^8.17.6",
     "@studio-freight/lenis": "^1.0.42",
     "@tabler/icons-react": "^3.14.0",
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.5.0",
     "clsx": "^2.1.1",
     "d3-ease": "^3.0.1",
     "framer-motion": "^11.3.8",

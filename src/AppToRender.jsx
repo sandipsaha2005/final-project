@@ -29,6 +29,7 @@ import Example from "./Comp/HorizentralScroll/app";
 import Index from "./Comp/generate-image-guide";
 import VideoFrame from "./Comp/FrameEffct/app";
 import LogoAnimation from './Comp/3dLogoAnimation/index'
+import BlurClear from "./Comp/blurclear";
 // import { ThreeDCardDemo } from './Comp/threeDCard/index'
 // import ScrollThreeD './Comp/'
 function AppToRender() {
@@ -45,7 +46,7 @@ function AppToRender() {
       <VideoFrame/>
       <Example />
       <Index/>
-     
+      <BlurClear/>
       <LogoAnimation/>
       
       
