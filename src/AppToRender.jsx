@@ -45,6 +45,7 @@ function AppToRender() {
       <VideoFrame/>
       <Example />
       <Index/>
+      <Footer />
       {/* <AppAnimation/>{" "} */}
       {/* <MenuMain1 />
 
@@ -54,7 +55,6 @@ function AppToRender() {
        <MarqueeDemo />
        <MenuMain />  */}
       {/* <PlaceholdersAndVanishInputDemo/> */}
-      {/* <Footer /> */}
     </>
   );
 }

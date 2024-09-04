@@ -68,7 +68,7 @@ export function PlaceholdersAndVanishInputDemo() {
   //   console.log("submitted");
   // };
   return (
-    <div className="h-[40rem] w-full flex flex-col justify-center  items-center px-4 dark:bg-[#0B0B0F]">
+    <div className="h-[40rem] w-full flex flex-col justify-center  items-center px-4 dark:bg-[#09090b]">
       <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl dark:text-white text-black">
         Enter Whatever You want to see
       </h2>

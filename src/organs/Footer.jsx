@@ -10,43 +10,22 @@ function Footer() {
   const [show, setShow] = useState(false);
   const [show1, setShow1] = useState(false);
   return (
-    <footer className="bg-zinc-900" id="footer">
+    <footer className="bg-[#09090b]" id="footer">
       <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8 lg:pt-24">
         <div className="text-center">
-          <h2 className="text-3xl font-extrabold text-gray-900 sm:text-5xl dark:text-white">
-            Mobile Legends: Bang Bang
+          <h2 className="text-3xl font-extrabold text-indigo-500 sm:text-5xl dark:text-white">
+            FLUX.1 AI
           </h2>
 
           <p className="mx-auto mt-4 max-w-md text-gray-400 dark:text-gray-400">
             <span className="text-[#FFCC00]">Contact Us: </span>{" "}
-            mobilelegendsgame@moonton.com
+            support@flux1.ai
             <br />
-            <span className="text-[#FFCC00]">© Moonton. </span>
+            <span className="text-[#FFCC00]">© FLUX.1. </span>
             All rights reserved
           </p>
           <div className="flex items-center justify-center mt-3 gap-4">
-            {show1 !== true && (
-              <div onClick={() => setShow((prev) => !prev)}>
-                <AnimatedSubscribeButton
-                  buttonColor="#000000"
-                  buttonTextColor="#ffffff"
-                  subscribeStatus={false}
-                  initialText={
-                    <span className="group inline-flex items-center">
-                      <FaApple className="mr-2 text-xl transition-transform duration-300 ease-in-out group-hover:scale-150" />
-                      Download{" "}
-                      <ChevronRightIcon className="ml-1 h-5 w-4 transition-transform duration-300 group-hover:translate-x-1" />
-                    </span>
-                  }
-                  changeText={
-                    <span className="group inline-flex items-center">
-                      <CheckIcon className="mr-2 h-4 w-4" />
-                      Complete{" "}
-                    </span>
-                  }
-                />
-              </div>
-            )}
+           
 
             {show !== true && (
               <div onClick={() => setShow1((prev) => !prev)}>
@@ -57,14 +36,14 @@ function Footer() {
                   initialText={
                     <span className="group inline-flex items-center">
                       <DiAndroid className="mr-2 text-xl transition-transform duration-300 ease-in-out group-hover:scale-150" />
-                      Download{" "}
+                      Subscribe {" "}
                       <ChevronRightIcon className="ml-1 h-5 w-4 transition-transform duration-300 group-hover:translate-x-1" />
                     </span>
                   }
                   changeText={
                     <span className="group inline-flex items-center">
                       <CheckIcon className="mr-2 h-4 w-4" />
-                      Complete{" "}
+                      Subscribed{" "}
                     </span>
                   }
                 />
