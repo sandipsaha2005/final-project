@@ -40,8 +40,8 @@ function AppToRender() {
     <>
       <NavbarDemo />
       <CardDemo />
-      <HeroParallaxDemo />
       <ScrollBasedVelocityDemo />
+      <HeroParallaxDemo />
       <VideoFrame/>
       <Example />
       <Index/>
