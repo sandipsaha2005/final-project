@@ -68,7 +68,7 @@ export function PlaceholdersAndVanishInputDemo() {
   // };
   return (
     <div className="h-[40rem] w-full flex flex-col justify-center  items-center px-4 dark:bg-[#0B0B0F]">
-      <h2 className="mb-10 sm:mb-20 text-xl text-center sm:text-5xl dark:text-white text-black">
+      <h2 className="mb-1 sm:mb-20 text-xl text-center sm:text-5xl dark:text-white text-black">
         Enter Whatever You want to see
       </h2>
       <PlaceholdersAndVanishInput

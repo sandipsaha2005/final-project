@@ -1,13 +1,8 @@
-import React from 'react'
-import App from './Comp'
-import Overlay from './Overlay'
+import React from "react";
+import App from "./Comp";
+import Overlay from "./Overlay";
 const LogoAnimation = () => {
-  return (
-    <div style={{minHeight:'300px'}}>
-    <App/>
-    <Overlay/>
-    </div>
-  )
-}
+  return <App />;
+};
 
-export default LogoAnimation
+export default LogoAnimation;
