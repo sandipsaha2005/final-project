@@ -129,7 +129,7 @@ export const Lid = ({
           }}
           className="absolute inset-0 bg-[#010101] rounded-lg flex items-center justify-center">
           <span className="text-white">
-            <AceternityLogo />
+            FLUX.1
           </span>
         </div>
       </div>
@@ -145,7 +145,7 @@ export const Lid = ({
         className="h-96 w-[32rem] absolute inset-0 bg-[#010101] rounded-2xl p-2">
         <div className="absolute inset-0 bg-[#272729] rounded-lg" />
         <img
-          src={'./resize.webp'}
+          src={'./macbook.gif'}
           alt="aceternity logo"
           fill
           className="object-cover object-left-top absolute rounded-lg inset-0 h-full w-full" />
