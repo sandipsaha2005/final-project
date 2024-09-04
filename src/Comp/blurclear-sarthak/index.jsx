@@ -10,7 +10,7 @@ const BlurClearSar = () => {
      
       <CompareDemo />
       <div style={{paddingTop:'50px'}}>
-        <p style={{fontSize:'40px'}}>Flux is an Image <br /> Enhancement Tool</p>
+        <p style={{fontSize:'40px'}}>Flux as an Image <br /> Enhancement Tool</p>
         
       </div>
     </div>

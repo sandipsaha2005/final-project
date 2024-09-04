@@ -86,6 +86,8 @@ export function PlaceholdersAndVanishInputDemo() {
           justifyContent: "center",
           // maxHeight: "500px",
           alignItems: "center",
+          width:'100%',
+          maxWidth:'300px'
         }}
       >
         {loader ? (
@@ -100,10 +102,13 @@ export function PlaceholdersAndVanishInputDemo() {
         ) : (
           // <ThreeDCardDemo title={'Taking'} src={imageURL ? imageURL : './cow.jpeg'} />
           <img
-            src={imageURL ? imageURL : "./cow.jpeg"}
+          height='100%'
+          width='100%'
+            src={imageURL ? imageURL : "./Search_first.png"}
             alt=""
             className="object-cover object-left-top"
           />
+          
         )}
       </div>
     </div>

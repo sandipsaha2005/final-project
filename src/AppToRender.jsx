@@ -42,12 +42,12 @@ function AppToRender() {
 
   return (
     <>
-      <VercelDesign />
-      {/* <NavbarDemo />
+      {/* <VercelDesign /> */}
+      <NavbarDemo />
       <CardDemo />
       <ScrollBasedVelocityDemo />
       <VideoFrame/>
-      <Example /> */}
+      <Example />
       <Index />
       <BlurClear />
       <BlurClearSar />
