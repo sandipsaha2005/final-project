@@ -101,7 +101,7 @@ export function PlaceholdersAndVanishInputDemo() {
               alt=""
               height='100%'
               width='100%'
-              className="object-cover  "
+              className="object-cover"
             />{" "}
           </>
         ) : (
