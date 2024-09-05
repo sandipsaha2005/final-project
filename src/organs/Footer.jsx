@@ -18,10 +18,10 @@ function Footer() {
           </h2>
 
           <p className="mx-auto mt-4 max-w-md text-gray-400 dark:text-gray-400">
-            <span className="text-[#FFCC00]">Contact Us: </span>{" "}
+            <span className="text-indigo-500">Contact Us: </span>{" "}
             support@flux1.ai
             <br />
-            <span className="text-[#FFCC00]">© FLUX.1. </span>
+            <span className="text-indigo-500">© FLUX.1. </span>
             All rights reserved
           </p>
           <div className="flex items-center justify-center mt-3 gap-4">
