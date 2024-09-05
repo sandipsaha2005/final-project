@@ -47,6 +47,8 @@ function NavbarDemo() {
     setState({ ...state, [anchor]: open });
   };
   return (
+    <>
+    <div className="bg-transparent absolute top-5 left-5 z-[500]  text-indigo-500 text-xl">FLUX.1</div>
     <div className="z-[100]  fixed top-5 right-5 ">
       {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
@@ -108,6 +110,7 @@ style={{height:'full',width:'full'}}
         </React.Fragment>
       ))}
     </div>
+    </>
   );
 }
 
