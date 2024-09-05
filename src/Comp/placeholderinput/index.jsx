@@ -82,12 +82,15 @@ export function PlaceholdersAndVanishInputDemo() {
       <div
         className="h-[40rem] w-full flex  justify-center  items-center px-4 dark:bg-[#0B0B0F] border-blue-500"
         style={{
+          marginTop:'10px',
           display: "flex",
           justifyContent: "center",
           // maxHeight: "500px",
           alignItems: "center",
           width:'100%',
-          maxWidth:'300px'
+          maxWidth:'500px',
+          height:'90%',
+          // border:'2px solid red'
         }}
       >
         {loader ? (
@@ -96,17 +99,18 @@ export function PlaceholdersAndVanishInputDemo() {
             <img
               src={"./loader.gif"}
               alt=""
-              className="object-cover object-left-top"
+              height='100%'
+              width='100%'
+              className="object-cover  "
             />{" "}
           </>
         ) : (
           // <ThreeDCardDemo title={'Taking'} src={imageURL ? imageURL : './cow.jpeg'} />
           <img
-          height='100%'
-          width='100%'
+         
             src={imageURL ? imageURL : "./Search_first.png"}
             alt=""
-            className="object-cover object-left-top"
+             className="object-cover w-full h-full rounded-md"
           />
           
         )}

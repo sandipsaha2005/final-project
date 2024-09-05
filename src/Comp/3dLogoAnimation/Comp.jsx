@@ -37,7 +37,7 @@ function Carla(props) {
 
 function VideoText(props) {
   const [video] = useState(() =>
-    Object.assign(document.createElement('video'), { src: '/drei.mp4', crossOrigin: 'Anonymous', loop: true, muted: true })
+    Object.assign(document.createElement('video'), { src: '/background.mp4', crossOrigin: 'Anonymous', loop: true, muted: true })
   );
   useEffect(() => void video.play(), [video]);
   return (
@@ -63,6 +63,6 @@ function Intro() {
   const [vec] = useState(() => new THREE.Vector3());
   return useFrame((state) => {
     state.camera.position.lerp(vec.set(state.mouse.x * 5, 3 + state.mouse.y * 2, 14), 0.05);
-    state.camera.lookAt(0, 0, 0);
-  });
+    state.camera.lookAt(0, 0, 0);
+ });
 }
